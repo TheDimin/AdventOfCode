@@ -29,7 +29,7 @@ namespace AdventOfCode2021
                 var assignment = (DayAssignment)Activator.CreateInstance(type);
                 assignments.Add(assignment.Day, assignment);
             }
-            int targetDay = 1;
+            int targetDay = 2;
             while (true)
             {
 

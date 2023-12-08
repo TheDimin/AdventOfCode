@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using AdventOfCode;
 
-namespace AdventOfCode2021.Assignments
+namespace AdventOfCode2023.Assignments
 {
     class Day01 : DayAssignment
     {
@@ -94,8 +94,6 @@ namespace AdventOfCode2021.Assignments
                                 {
                                     lasti = $"{j + 1}"[0];
                                 }
-
-                               // i += names[j].Length - 1;
 
                                 break;
                             }

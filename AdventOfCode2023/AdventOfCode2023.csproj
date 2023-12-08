@@ -7,9 +7,13 @@
 
   <ItemGroup>
     <None Remove="Data\Day01.txt" />
+    <None Remove="Data\Day02.txt" />
   </ItemGroup>
 
   <ItemGroup>
+    <AdditionalFiles Include="Data\Day02.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AdditionalFiles>
     <AdditionalFiles Include="Data\Day01.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AdditionalFiles>
